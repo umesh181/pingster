@@ -1,8 +1,8 @@
+import { Heading } from "@/components/heading"
+import { MaxWidthWrapper } from "@/components/max-width-wrapper"
+import { ShinyButton } from "@/components/shiny-button"
+import { BlurFade } from "@/components/ui/blue-fade"
 import { Check } from "lucide-react"
-import { Heading } from "./components/heading"
-import { MaxWidthWrapper } from "./components/max-width-wrapper"
-import { ShinyButton } from "./components/shiny-button"
-import { BlurFade } from "./components/ui/blue-fade"
 
 const Page = () => {
   return (
@@ -51,20 +51,23 @@ const Page = () => {
                 </ShinyButton>
               </div>
               </BlurFade>
-              
-
-
-
-
-            
             <br />
+            
 
 
           </div>
 
         </MaxWidthWrapper>
       </section>
-      <section></section>
+      <section className="relative bg-brand-25 pb-4">
+      <div className="absolute inset-x-0 bottom-24 top-24 bg-brand-700" />
+      <div className="relative mx-auto">
+
+        
+      </div>
+
+
+      </section>
       <section></section>
       <section></section>
       <section></section>
