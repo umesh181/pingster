@@ -1,11 +1,11 @@
 "use client"
 
 import {
-    AnimatePresence,
-    motion,
-    useInView,
-    UseInViewOptions,
-    Variants,
+  AnimatePresence,
+  motion,
+  useInView,
+  UseInViewOptions,
+  Variants,
 } from "framer-motion"
 import { useRef } from "react"
 
