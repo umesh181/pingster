@@ -9,25 +9,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      
       fontFamily: {
         heading: ["var(--font-heading)", ...fontFamily.sans],
       },
       colors: {
-        brand: {
-          25: "#F7FAFD",
-          50: "#F0F5FA",
-          100: "#E1EBF5",
-          200: "#C7D7EB",
-          300: "#A9C3DE",
-          400: "#8BAECF",
-          500: "#6D99BF",
-          600: "#5483A3",
-          700: "#426A86",
-          800: "#335269",
-          900: "#273E4F",
-          950: "#1C2D3A",
-        },
-      },
+  brand: {
+    25: "#FBF7FF",
+    50: "#F4ECFF",
+    100: "#E6D9FF",
+    200: "#CDB3FF",
+    300: "#B38CFF",
+    400: "#9966FF",
+    500: "#8040FF",
+    600: "#662FCC",
+    700: "#4D2399",
+    800: "#331966",
+    900: "#1A0D33",
+    950: "#100822",
+  },
+}
+
+      
     },
   },
   plugins: [],
