@@ -1,11 +1,12 @@
 import { SignOutButton } from "@clerk/nextjs"
+import { currentUser } from "@clerk/nextjs/server"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { MaxWidthWrapper } from "./max-width-wrapper"
 import { Button, buttonVariants } from "./ui/button"
 
 export const Navbar = async () => {
-  const user = false
+  const user = await currentUser()
 
   return (
     <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
