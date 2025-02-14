@@ -1,1 +1,1 @@
-Saas monitoring platform
+Saas monitoring platform for early-stage startups.
